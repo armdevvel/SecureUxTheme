@@ -119,7 +119,7 @@ Naming has been pretty messy in this project, I admit that. Originally this proj
 
 ### Requirements
 
-* Visual Studio 2022 (or above) with x86, x64, ARM64 toolchains
+* Visual Studio 2022 (or above) with x86, x64, ARM64, ARM toolchains
 
 ### Compiling
 
@@ -129,7 +129,8 @@ Note that the order of the builds is important, building ThemeTool will fail if 
 2. Build SecureUxTheme as Release/Win32
 3. Build SecureUxTheme as Release/ARM64
 4. Build SecureUxTheme as Release/x64
-5. Build ThemeTool as Release/Win32
+5. Build SecureUxTheme as Release/ARM
+6. Build ThemeTool as Release/Win32 (or Release/ARM if targeting an ARM32 machine)
 
 ### Debugging
 
