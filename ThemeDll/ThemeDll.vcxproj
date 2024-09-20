@@ -318,6 +318,10 @@
     <ResourceCompile Include="resource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\bin\Release\ARM\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\ARM64\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\Win32\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\x64\SecureUxTheme.dll" />
     <None Include="exports.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

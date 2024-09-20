@@ -33,5 +33,9 @@
     <None Include="exports.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="..\bin\Release\Win32\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\x64\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\ARM64\SecureUxTheme.dll" />
+    <None Include="..\bin\Release\ARM\SecureUxTheme.dll" />
   </ItemGroup>
 </Project>

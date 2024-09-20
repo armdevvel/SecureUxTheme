@@ -1,9 +1,11 @@
 ﻿//{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by Resource.rc
+// Used by resource.rc
+//
 #define IDR_SECUREUXTHEME_DLL_X86       110
 #define IDR_SECUREUXTHEME_DLL_X64       111
 #define IDR_SECUREUXTHEME_DLL_ARM64     112
+#define IDR_SECUREUXTHEME_DLL_ARM       113
 
 // Next default values for new objects
 // 
