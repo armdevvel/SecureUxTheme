@@ -225,6 +225,11 @@ HRESULT themetool_init()
         0x20, 0x00, 0x80, 0x52,         // mov w0, #1
         0xC0, 0x03, 0x5F, 0xD6          // ret
       }
+#elif defined(_M_ARM)
+      {
+        0x01, 0x20,                     // mov r0, #1
+        0x70, 0x47                      // bx lr
+      }
 #else
 #error "Unsupported architecture"
 #endif
