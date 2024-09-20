@@ -53,6 +53,7 @@ void do_init(HMODULE mod)
   bind_resource_to_arch(mod, IDR_SECUREUXTHEME_DLL_X86, IMAGE_FILE_MACHINE_I386);
   bind_resource_to_arch(mod, IDR_SECUREUXTHEME_DLL_X64, IMAGE_FILE_MACHINE_AMD64);
   bind_resource_to_arch(mod, IDR_SECUREUXTHEME_DLL_ARM64, IMAGE_FILE_MACHINE_ARM64);
+  bind_resource_to_arch(mod, IDR_SECUREUXTHEME_DLL_ARM, IMAGE_FILE_MACHINE_ARM);
 }
 
 BOOL APIENTRY DllMain(

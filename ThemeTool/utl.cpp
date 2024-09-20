@@ -145,6 +145,8 @@ static int get_needed_dll_resource_id()
     return IDR_SECUREUXTHEME_DLL_X64;
   case IMAGE_FILE_MACHINE_ARM64:
     return IDR_SECUREUXTHEME_DLL_ARM64;
+  case IMAGE_FILE_MACHINE_ARM:
+      return IDR_SECUREUXTHEME_DLL_ARM;
   default:
     break;
   }
