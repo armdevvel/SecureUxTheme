@@ -261,8 +261,8 @@
       <SubSystem>Native</SubSystem>
       <LargeAddressAware>true</LargeAddressAware>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
-      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
-      <AdditionalDependencies>ntdll.lib;ntdllp.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>ntdll.lib;ntdllp.lib;kernel32.lib</AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <GenerateMapFile>true</GenerateMapFile>
