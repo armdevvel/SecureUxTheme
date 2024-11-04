@@ -20,7 +20,7 @@ Styles must still have a format-wise valid signature appended, it is just not ve
 
 ## Operating System Support\*
 
-* Windows 8.1, RT 8.1
+* Windows 8.1 (including RT 8.1)
 * Windows 10
 * Windows 11 (tested: 21H2, 22H2)
 * Future versions\*\*
