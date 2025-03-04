@@ -1,4 +1,4 @@
-This is an ARM32 port of the SecureUxTheme utility. Please note that you need to use (and therefore hook) Explorer in order to change themes since both ThemeTool and Settings currently crash when applying (but not when patching) themes. If you want to build the ThemeTool or ThemeLib yourself you need to build SecureUxTheme for all architectures (x86/x64/ARM/ARM64) before building ThemeTool/ThemeLib for ARM. Debug builds are currently broken.
+This is an ARM32 port of the SecureUxTheme utility. Please note that you need to use (and therefore hook) Explorer in order to change themes since both ThemeTool and Settings currently crash when applying (but not when patching) custom themes. If you want to build the ThemeTool or ThemeLib yourself you need to build SecureUxTheme for all architectures (x86/x64/ARM/ARM64) before building ThemeTool/ThemeLib for ARM. Debug builds are currently broken.
 
 In order to access the Explorer interface for changing themes on Windows 10 you can press Win+R and run the following command: 
 `explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}`
